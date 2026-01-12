@@ -1,0 +1,7 @@
+
+[theme]
+primaryColor = "#7C3AED"            # ryškus violetinis akcentas
+backgroundColor = "#0B1221"          # tamsus fonas
+secondaryBackgroundColor = "#111827" # kortelių fonas
+textColor = "#ECF2FF"                # šviesus tekstas
+font = "sans serif"                  # sisteminiai sans-serif; toliau CSS įjungs Inter
