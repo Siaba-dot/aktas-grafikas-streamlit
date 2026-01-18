@@ -31,7 +31,11 @@ section[data-testid="stSidebar"] {{ background: #0e1424aa; border-right: 1px sol
 .stButton>button:hover {{
   box-shadow: 0 0 18px {NEON_PRIMARY}88, inset 0 0 10px {NEON_SECOND}44; transform: translateY(-1px);
 }}
-[data-testid="stFileUploaderDropzone"] > div > div { border: 1px dashed {NEON_PRIMARY}88 !important; background: rgba(255,255,255,0.03); }
+
+[data-testid="stFileUploaderDropzone"] > div > div {{
+  border: 1px dashed {NP}88 !important; background: rgba(255,255,255,0.03);
+}}
+
 </style>
 """, unsafe_allow_html=True)
 
