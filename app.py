@@ -584,12 +584,12 @@ if st.button("🔄 Grafikas → X (Pn–Pn) → Periodiškumas → Kaina", type=
         out = io.BytesIO(); wb.save(out); out.seek(0)
         label = f"{int(target_year)}-{int(target_month):02d}"
         st.success(
-            f"✔ Nauji X parašyti: {x_written}
-"
-            f"✔ Periodiškumas atnaujintas: {updated}
-"
-            f"✔ Periodinių (N kart./mėn.) įrašyta: {overrides_set}
-"
+            f"✔ Nauji X parašyti: {x}\n"
+
+            f"✔ Periodiškumas atnaujintas: {u}\n"
+
+            f"✔ Periodinių (N kart./mėn.) įrašyta: {overrides_set}\n"
+
             f"Pn: {wd_counts.get(0,0)}, An: {wd_counts.get(1,0)}, Tr: {wd_counts.get(2,0)}, Kt: {wd_counts.get(3,0)}, Pnkt: {wd_counts.get(4,0)}"
         )
         st.download_button(
